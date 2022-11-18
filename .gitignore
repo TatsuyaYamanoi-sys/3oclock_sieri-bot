@@ -1,0 +1,9 @@
+*.png
+*.jpg
+*.org
+.env
+docs/
+tests/
+postgres_data/
+docker-compose.yml
+dockerfile
