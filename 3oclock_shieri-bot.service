@@ -1,0 +1,12 @@
+[Unit]
+Description=3oclock_shieri-bot
+After=network.target
+ConditionPathExists=/opt/3oclock_shieri-bot/bin
+
+[Service]
+Type=simple
+ExecStart=/opt/3oclock_shieri-bot/bin/main.py
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
